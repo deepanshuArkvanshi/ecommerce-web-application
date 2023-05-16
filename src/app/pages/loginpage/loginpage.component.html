@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="form">
+        <form [formGroup]="loginForm">
+             <input type="email" formControlName="email">
+             <input type="name" formControlName="name">
+             <input type="password" formControlName="password">
+             <button  (click)="loginSubmit($event)">Submit</button>
+        </form>
+  </div>
+</div>
